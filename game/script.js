@@ -11,7 +11,7 @@ const loseAudio = new Audio('./assets/lose.mp3')
 const winAudio = new Audio('./assets/win.mp3')
 
 homeBtn.addEventListener('click', () => {
-    window.location.href = '../homepage'
+    window.location.href = '../homepage/index.html'
 })
 
 resetBtn.addEventListener('click', () => {
